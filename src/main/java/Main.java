@@ -5,11 +5,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             try {
-                System.out.println("\nВведите путь к файлу или \"1\" чтобы выйти: ");
+                System.out.println("\nEnter a path to file or \"1\" to quit: ");
                 String filePath = scanner.nextLine();
 
                 if (filePath.equals("1")) {
-                    System.out.println("До следующей встречи!");
+                    System.out.println("See you next time!");
                     System.exit(0);
                 }
 

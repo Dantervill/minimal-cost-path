@@ -17,7 +17,7 @@ public class Organiser {
                 fileContent.add(scn.nextLine());
             }
         } catch (IOException e) {
-            System.err.println("Неверный путь к файлу!");
+            System.err.println("Path to your file is wrong!");
         }
 
         return fileContent;
@@ -33,7 +33,7 @@ public class Organiser {
         try {
             cellsCombination = fileContent.stream().filter(e -> e.matches(cellsRegex)).findAny().orElseThrow();
         } catch (NoSuchElementException e) {
-            System.err.println("Неверная комбинация ячеек!");
+            System.err.println("Cells' combination is wrong!");
         }
 
         return cellsCombination;
@@ -49,7 +49,7 @@ public class Organiser {
         try {
             characterName = fileContent.stream().filter(e -> e.matches(characterNameRegex)).findAny().orElseThrow();
         } catch (NoSuchElementException e) {
-            System.err.println("Неверное имя героя!");
+            System.err.println("Character's name is wrong");
         }
 
         return characterName;
