@@ -33,9 +33,9 @@ class OrganiserTest {
                 {2,2,2,2},
                 {2,3,2,2}
         };
-        String humanPath = "C:\\Users\\Vlas\\Desktop\\Shortway\\src\\test\\resources\\test_1.txt";
-        String swamperPath = "C:\\Users\\Vlas\\Desktop\\Shortway\\src\\test\\resources\\test_2.txt";
-        String woodmanPath = "C:\\Users\\Vlas\\Desktop\\Shortway\\src\\test\\resources\\test_3.txt";
+        String humanPath = ".\\src\\test\\resources\\test_1.txt";
+        String swamperPath = ".\\src\\test\\resources\\test_2.txt";
+        String woodmanPath = ".\\src\\test\\resources\\test_3.txt";
         return List.of(
                 new Object[]{human, humanPath},
                 new Object[]{swamper, swamperPath},
