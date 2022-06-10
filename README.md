@@ -8,10 +8,10 @@ Steps to run it:
 
 2. Enter commands:
 
-a) cd путь_до_папки_проекта
-b) mvn package
-c) cd target
-d) java -jar project-0.0.1-SNAPSHOT.jar
+i. cd path_to_project
+ii. mvn package
+iii. cd target
+iv. java -jar project-0.0.1-SNAPSHOT.jar
 
 RU
 
